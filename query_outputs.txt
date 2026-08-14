@@ -1,0 +1,76 @@
+COP4710 Final Project
+Query Outputs
+
+Query 1 – Multi-table JOIN
+First 5 rows:
+1 | 2026-04-10 | John Doe | Nail care | Lauren Merritt | Miami
+2 | 2026-04-11 | John Doe | Haircut | Melody Proctor | Orlando
+3 | 2026-04-12 | Bob Smith | Therapy | Tyler Benjamin | Tampa
+4 | 2026-04-13 | Bob Smith | Massage | Ellen Luna | Miami
+5 | 2026-04-14 | John Doe | Therapy | Riley Park | Orlando
+Total rows: 6
+
+
+Query 2 – GROUP BY
+First rows:
+Nail care | 2
+Therapy | 2
+Haircut | 1
+Massage | 1
+Total rows: 4
+
+
+Query 3 – Subquery
+First rows:
+Lauren Merritt | 10
+Tyler Benjamin | 5
+Total rows: 2
+
+
+Query 4 – CASE
+First rows:
+Lauren Merritt | 10 | Senior
+Tyler Benjamin | 5 | Mid-level
+Melody Proctor | 4 | Mid-level
+Riley Park | 3 | Junior
+Ellen Luna | 2 | Junior
+Total rows: 5
+
+
+Query 5 – VIEW
+First rows:
+1 | 2026-04-10 | 1 | Lauren Merritt | Miami | Nail care
+2 | 2026-04-11 | 1 | Melody Proctor | Orlando | Haircut
+5 | 2026-04-14 | 1 | Riley Park | Orlando | Therapy
+Total rows: 3
+
+
+Query 6 – Filtering
+First rows:
+2 | 2026-04-11 | Haircut | Orlando
+4 | 2026-04-13 | Massage | Miami
+5 | 2026-04-14 | Therapy | Orlando
+Total rows: 3
+
+
+Query 7 – INSERT
+Result:
+1 row inserted successfully
+Verification:
+New booking found for date 2026-04-20
+Total rows affected: 1
+
+
+Query 8 – UPDATE
+Result:
+1 row updated successfully
+Verification:
+BookingID 1 updated with location_id = 5
+Total rows affected: 1
+
+
+Query 9 – Non-trivial query
+First rows:
+John Doe | 3 | Haircut, Nail care, Therapy
+Bob Smith | 3 | Massage, Nail care, Therapy
+Total rows: 2
